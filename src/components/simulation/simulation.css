@@ -1,0 +1,86 @@
+#simulation {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	transition: all 500ms;
+}
+
+#simulation .box {
+	flex-wrap: wrap;
+	column-gap: 14rem;
+	row-gap: 7rem;
+	flex: 1;
+	margin-bottom: 0;
+}
+
+#simulation p {
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 1.9rem;
+	color: #737373;
+}
+
+.simulationInfos {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.simulationInfos h3 {
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.7rem;
+	color: #333333;
+}
+
+.table {
+	width: 100%;
+}
+
+table {
+	font-family: "Open Sans", sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tableHeader th {
+	font-weight: 700;
+}
+
+tr,
+th {
+	padding: 8px;
+
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	text-align: left;
+	text-transform: uppercase;
+
+	color: #333333;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.button {
+	width: 55.4rem;
+	height: 4.4rem;
+	margin-inline: auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	color: white;
+
+	background-color: #21ae1e;
+	box-shadow: var(--shadow);
+	border-radius: 0.6rem;
+}
+
+.button img {
+	height: 2.2rem;
+}
